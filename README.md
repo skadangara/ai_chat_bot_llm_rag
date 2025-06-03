@@ -1,9 +1,8 @@
 
-# CBAM Chatbot
+# CBAM Chatbot: A Local LLM-RAG Based Assistant Using LangChain and Ollama
 
-A CBAM LLM-RAG based Chatbot
-
-
+Project Summary:
+This project implements a local Retrieval-Augmented Generation (RAG) chatbot designed to interact with CBAM (Carbon Border Adjustment Mechanism) documents. It leverages state-of-the-art language models using the Ollama framework, specifically LLaMA 3.1 for generation and mxbai-embed-large for embeddings. Built with LangChain and served via a Gradio interface, the chatbot provides an interactive platform to query CBAM-related content locally without relying on cloud-based services. The vector storage is handled using ChromaDB, ensuring efficient semantic retrieval of document content. This solution is ideal for users looking to explore regulatory or compliance content through an intuitive, AI-driven interface.
 
 
 ## Prerequisites
